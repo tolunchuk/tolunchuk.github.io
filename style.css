@@ -4,7 +4,8 @@ body {
 
 #scidka {
 	color:#ffffff;
-	border:2px solid #414141;
+	border:4px solid #414141;
+	width:1350px;
 	border-radius:15px;
 	text-align:center;
 	margin-bottom:10px;
@@ -16,10 +17,10 @@ img {
 	border-radius:10px;
 }
 
-img:hover {
+/*img:hover {
 	width:355px;
 	height:255px;
-}
+}*/
 
 figcaption {
 	background-color:#212121;
@@ -27,28 +28,47 @@ figcaption {
 	border-radius:15px;
 	text-align:center;
 	color:#ffffff;
-	width:250px;
+	width:350px;
 	font-size:20px;
 }
 
 figcaption:hover {
-	color:#ff7300;
+	color:#b3b3b3;
 }
 
-button {
-	background-color:#414141;
-	border:2px solid #000000;
-	border-radius:15px;
-	font-size:40px;
+#news {
+	border:4px solid #414141;
+	border-radius:10px;
+	color:#ffffff;
+	width:250px;
+	margin-left:900px;
+	margin-top:-650px;
+	padding-bottom:10%;
+	text-align:center;
+	font-size:18px;
 }
 
-button:hover {
-	background-color:#313131;
-	color:blue;
-	cursor:pointer;
+#news:hover {
+	color:#b3b3b3;
+	text-decoration:underline;
 }
 
-button:active {
-	
+#help {
+	border:4px solid #414141;
+	margin-top:25px;
+	width:1100px;
+	padding:10px;
+}
+
+#contact {
+	color:#ffffff;
+}
+
+a {
+	color:#008cf0;
+}
+
+a:hover {
+	color:#004cf0;
 }
 
