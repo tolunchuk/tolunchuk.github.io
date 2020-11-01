@@ -1,5 +1,11 @@
+body {
+	background-color:#101010;
+}
+
 #scidka {
+	color:#ffffff;
 	border:2px solid #414141;
+	border-radius:15px;
 	text-align:center;
 	margin-bottom:10px;
 	font-size:30px;
@@ -16,12 +22,17 @@ img:hover {
 }
 
 figcaption {
+	background-color:#212121;
+	border:2px solid #414141;
+	border-radius:15px;
+	text-align:center;
+	color:#ffffff;
 	width:250px;
 	font-size:20px;
 }
 
 figcaption:hover {
-	color:blue;
+	color:#ff7300;
 }
 
 button {
